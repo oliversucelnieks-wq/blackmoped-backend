@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 3000;
 // ---- Config ----
 const API_KEY = process.env.OPENROUTER_API_KEY;
 const ALLOWED_ORIGIN = process.env.ALLOWED_ORIGIN || "*";
-const MODEL = process.env.MODEL || "anthropic/claude-3.5-sonnet";
+const MODEL = process.env.MODEL || "anthropic/claude-haiku-4.5";
 
 if (!API_KEY) {
   console.error("FATAL: OPENROUTER_API_KEY environment variable is not set.");
